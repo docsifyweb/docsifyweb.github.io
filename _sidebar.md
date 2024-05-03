@@ -1,0 +1,8 @@
+* [Docsify](docs/docsify.md)
+* [We](docs/we.md)
+* [Install](docs/install.md)
+* [Quick start](docs/quickstart.md)
+* [More files](docs/morefiles.md)
+* [Markdown](docs/markdown.md)
+* [Configuration](docs/configuration.md)
+* [Plugins](docs/plugins.md)
