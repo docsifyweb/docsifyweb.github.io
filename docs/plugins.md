@@ -123,6 +123,95 @@ It provides the ability to count Chinese characters and English words, and exclu
 
 It can be easily configured.
 
+## Progress
+
+Displays the current browsing progress of the document.  
+
+```HTML
+<!-- Progress -->
+<script src="//fastly.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+```
+
+```HTML
+<script>
+  window.$docsify = {
+    progress: {
+      position: 'top',
+      color: 'var(--theme-color,#42b983)',
+      height: '2px',
+    },
+  }
+</script>
+```
+
+It works very well.
+
+## Footer
+
+Add a footer to each of your documents to customize the content.  
+
+```HTML
+<!-- Footer -->
+<script src="//fastly.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+```
+
+```HTML
+<script>
+  window.$docsify = {
+    loadFooter: '_footer.md',
+  }
+</script>
+```
+
+```markdown
+# The Footer
+```
+
+## Flexible alerts
+
+Add more flexible warnings. Including Tip, Note, Warning, Attention. 2 styles to choose from.  
+
+```HTML
+<!-- Flexible alerts -->
+<script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+```
+
+```HTML
+<script>
+  window.$docsify = {
+    'flexible-alerts': {
+      // 2 styles
+      style: 'call out',
+      style: 'flat',
+    }
+  };
+</script>
+```
+
+```markdown
+> [!Tip]
+> This is a tip.
+
+> [!Note]
+> This is a note.
+
+
+> [!Warning]
+> This is a warning.
+
+> [!Attention]
+> This is an attention.
+```
+
+## Pagination
+
+When there are multiple documents, add Next and Previous at the bottom of the document.  
+
+```HTML
+<!-- Pagination -->
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+```
+
 ## More
 
 The Docsify plugin ecosystem is very rich, and even the official website doesn't list them all. If you're interested, you can search for them on GitHub.  
