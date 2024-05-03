@@ -55,3 +55,9 @@ There is a handful of themes available, both official and community-made. Copy [
 ```
 
 Choose the theme that's right for you.
+
+## Emoji
+
+Go to https://docsify.js.org/#/emoji to see the list of Emoji codes.  
+
+For example `:100:`, resolves to :100:.

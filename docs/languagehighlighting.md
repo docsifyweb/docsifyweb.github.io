@@ -8,7 +8,7 @@ To highlight the code for these languages, simply specify the programming langua
 
 If you are speaking another language, support for [additional languages](https://prismjs.com/#supported-languages/) is available by loading the language-specific [grammar files](https://cdn.jsdelivr.net/npm/prismjs@1/components/) via CDN.  
 
-```HTML
+```html
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 ```

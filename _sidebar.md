@@ -7,4 +7,3 @@
 * [Configuration](docs/configuration.md)
 * [Plugins](docs/plugins.md)
 * [Language highlighting](docs/languagehighlighting.md)
-* [Emoji](docs/emoji.md)

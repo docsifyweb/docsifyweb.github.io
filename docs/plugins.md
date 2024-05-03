@@ -16,14 +16,14 @@ Full-text search will make it easier for users to use.
 
 First, when using the plugin, JavaScript must be introduced.  
 
-```HTML
+```html
 <!-- Search -->
 <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 ```
 
 Sometimes, we want to configure the plugin, and we can do it in `window.$docsify`.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     search: {
@@ -49,7 +49,7 @@ See detailed usage to the [official documentation](https://docsify.js.org/#/plug
 
 If the script in the document is an inline script, it can be executed directly, while if it is a backlink script, you need to use this plugin.  
 
-```HTML
+```html
 <!-- External Script -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 ```
@@ -58,7 +58,7 @@ If the script in the document is an inline script, it can be executed directly, 
 
 Mediham's style picture zoom plugin.  
 
-```HTML
+```html
 <!-- Zoom image -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 ```
@@ -75,7 +75,7 @@ This plugin allows you to copy the content of the page to the clipboard.
 
 Add a Copy to clipboard button.  
 
-```HTML
+```html
 <!-- Copy to clipboard -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/clipboard.min.js"></script>
 ```
@@ -84,7 +84,7 @@ Add a Copy to clipboard button.
 
 This plugin allows you to use emoji in your document.  
 
-```HTML
+```html
 <!-- Emoji -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 ```
@@ -93,7 +93,7 @@ This plugin allows you to use emoji in your document.
 
 A modern, Preact and Github issue-based commenting system.  
 
-```HTML
+```html
 <!-- Gitalk -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
@@ -116,7 +116,7 @@ A modern, Preact and Github issue-based commenting system.
 
 It provides the ability to count Chinese characters and English words, and excludes some special characters of Markdown syntax.  
 
-```HTML
+```html
 <!-- Word count -->
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 ```
@@ -127,12 +127,12 @@ It can be easily configured.
 
 Displays the current browsing progress of the document.  
 
-```HTML
+```html
 <!-- Progress -->
 <script src="//fastly.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
 ```
 
-```HTML
+```html
 <script>
   window.$docsify = {
     progress: {
@@ -150,12 +150,12 @@ It works very well.
 
 Add a footer to each of your documents to customize the content.  
 
-```HTML
+```html
 <!-- Footer -->
 <script src="//fastly.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 ```
 
-```HTML
+```html
 <script>
   window.$docsify = {
     loadFooter: '_footer.md',
@@ -171,12 +171,12 @@ Add a footer to each of your documents to customize the content.
 
 Add more flexible warnings. Including Tip, Note, Warning, Attention. 2 styles to choose from.  
 
-```HTML
+```html
 <!-- Flexible alerts -->
 <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
 ```
 
-```HTML
+```html
 <script>
   window.$docsify = {
     'flexible-alerts': {
@@ -207,7 +207,7 @@ Add more flexible warnings. Including Tip, Note, Warning, Attention. 2 styles to
 
 When there are multiple documents, add Next and Previous at the bottom of the document.  
 
-```HTML
+```html
 <!-- Pagination -->
 <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 ```

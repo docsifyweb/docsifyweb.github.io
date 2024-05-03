@@ -10,7 +10,7 @@ In the `window.$docsify`, we can customize our docsify page. Here are some of th
 
 The `name` configuration item is used to set the title of the post at the top of the sidebar and can contain custom HTML code.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     name: '<h3>My Docsify Website</h3>',
@@ -22,7 +22,7 @@ The `name` configuration item is used to set the title of the post at the top of
 
 The `logo` appears at the top of the side navigation bar and can be adjusted via CSS.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     logo: 'https://docsify.js.org/_media/icon.svg/',
@@ -37,7 +37,7 @@ The `logo` appears at the top of the side navigation bar and can be adjusted via
 
 The DOM node will be mounted at initialization. This can be either a CSS selector or a real HTML element.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     el: '#app',
@@ -49,7 +49,7 @@ The DOM node will be mounted at initialization. This can be either a CSS selecto
 
 Configure the repository url, or a string of `username/repo`, to add the [GitHub Corner](https://tholman.com/github-corners/) widget in the top right corner of the site.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     repo: 'https://github.com/docsifyweb/',
@@ -61,7 +61,7 @@ Configure the repository url, or a string of `username/repo`, to add the [GitHub
 
 Generates the maximum level of the document content navigation directory.Default is 6.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     maxLevel: 3,
@@ -73,7 +73,7 @@ Generates the maximum level of the document content navigation directory.Default
 
 Hide the sidebar.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     hideSidebar: true,
@@ -85,7 +85,7 @@ Hide the sidebar.
 
 When you switch pages, you automatically scroll to the top of the page.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     auto2top: true,
@@ -99,7 +99,7 @@ Specify the master document. The default value is `README.md`.
 
 If you want to use other documents as your main page, this configuration is very useful.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     homepage: 'index.md',
@@ -111,7 +111,7 @@ If you want to use other documents as your main page, this configuration is very
 
 The base path of the site. When specified, the file path of the call changes. It can also be a web address.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     basePath: '/path/',
@@ -123,7 +123,7 @@ The base path of the site. When specified, the file path of the call changes. It
 
 Enable relative paths.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     relativePath: true,
@@ -135,7 +135,7 @@ Enable relative paths.
 
 The URL address of the name link.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     nameLink: {
@@ -150,7 +150,7 @@ The URL address of the name link.
 
 The accent color.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     themeColor: '#3F51B5',
@@ -162,7 +162,7 @@ The accent color.
 
 Enable JavaScript scripting.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     executeScript: true,
@@ -174,7 +174,7 @@ Enable JavaScript scripting.
 
 Disable emoji parsing.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     noEmoji: true,
@@ -186,7 +186,7 @@ Disable emoji parsing.
 
 Target to open external links inside the markdown.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     externalLinkTarget: '_self',
@@ -198,7 +198,7 @@ Target to open external links inside the markdown.
 
 Set the route alias. You can freely manage routing rules. Supports RegExp. Do note that order matters! If a route can be matched by multiple aliases, the one you declared first takes precedence.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     alias: {
@@ -216,7 +216,7 @@ Set the route alias. You can freely manage routing rules. Supports RegExp. Do no
 
 Navbar will be merged with the sidebar on smaller screens.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     mergeNavbar: true,
@@ -228,7 +228,7 @@ Navbar will be merged with the sidebar on smaller screens.
 
 Adds a space on top when scrolling the content page to reach the selected section. This is useful in case you have a sticky-header layout and you want to align anchors to the end of your header.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     topMargin: 90,
@@ -240,7 +240,7 @@ Adds a space on top when scrolling the content page to reach the selected sectio
 
 The 404 pages.  
 
-```HTML
+```html
 <script>
   window.$docsify = {
     notFoundPage: '404.md',
