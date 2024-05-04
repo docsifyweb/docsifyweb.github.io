@@ -237,6 +237,15 @@ Sometimes, we want to click on an image and go to a different URL.
 [![Image](image.jpg "Image Title")](https://docsifyweb.github.io/)
 ```
 
+In Docsify, there is also support for scaling images.  
+
+```markdown
+![logo](https://docsify.js.org/_media/icon.svg ':size=WIDTHxHEIGHT')
+![logo](https://docsify.js.org/_media/icon.svg ':size=50x100')
+![logo](https://docsify.js.org/_media/icon.svg ':size=100')
+![logo](https://docsify.js.org/_media/icon.svg ':size=10%') <!-- Support percentage -->
+```
+
 ## Escape characters
 
 To display the characters that were originally used to format a Markdown document, add a `\` in front of the character.  

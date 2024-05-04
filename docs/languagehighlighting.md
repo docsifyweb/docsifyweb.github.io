@@ -2,6 +2,8 @@
 
 # Language highlighting
 
+> Use Prism to highlight blocks of code in a page.
+
 Docsify uses [Prism](https://prismjs.com/) to highlight code blocks in your pages. Prism supports the following languages by default: Markup, CSS, C-like, JavaScript.  
 
 To highlight the code for these languages, simply specify the programming language correctly.  

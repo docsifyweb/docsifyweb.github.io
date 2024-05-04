@@ -7,3 +7,7 @@
 * [Configuration](docs/configuration.md)
 * [Plugins](docs/plugins.md)
 * [Language highlighting](docs/languagehighlighting.md)
+* [Embed files](docs/embedfiles.md)
+* [Markdown extensions](docs/markdownextensions.md)
+* [Links](docs/links.md)
+* [Markdown in html tag](docs/markdowninhtmltag.md)
