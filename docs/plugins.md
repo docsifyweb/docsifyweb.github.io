@@ -216,4 +216,7 @@ When there are multiple documents, add Next and Previous at the bottom of the do
 
 The Docsify plugin ecosystem is very rich, and even the official website doesn't list them all. If you're interested, you can search for them on GitHub.  
 
+> [!Tip]
+> https://docsify.js.org/#/zh-cn/awesome?id=plugins lists a number of plugins.
+
 If your country has slow access to CDN, you can try [fastly](https://fastly.jsdelivr.net/).

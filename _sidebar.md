@@ -11,3 +11,4 @@
 * [Markdown extensions](docs/markdownextensions.md)
 * [Links](docs/links.md)
 * [Markdown in html tag](docs/markdowninhtmltag.md)
+* [Deploy](docs/deploy.md)
